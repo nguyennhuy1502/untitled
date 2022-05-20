@@ -18,6 +18,6 @@ public class FilterQuestion implements FilterLanguage,FilterLevel {
         List<Question>listLevelFilter  = listLanguageFilter.stream().
                 filter(question -> question.questionLevel().equals(level))
                 .collect(Collectors.toList());
-        return listLanguageFilter;
+        return listLevelFilter;
     }
 }
