@@ -1,30 +1,18 @@
 package Techvify.DAO;
 
-public class Language {
-    private String id;
-    private String name;
-
-    public Language() {
-    }
-
+public record Language(String id,String name) {
     public Language(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public String getId() {
+    @Override
+    public String id() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getName() {
+    @Override
+    public String name() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }

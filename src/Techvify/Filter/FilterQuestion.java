@@ -15,7 +15,7 @@ public class FilterQuestion implements FilterLanguage, FilterLevel {
     @Override
     public List<Question> listLanguageFilter(InterviewMe interviewMe) {
         List<Question> listLanguageFilter = Data.getQuestionsList().stream().
-                filter(question -> question.language().getName().equals(interviewMe.language()))
+                filter(question -> question.language().name().equals(interviewMe.language()))
                 .collect(Collectors.toList());
         return listLanguageFilter;
     }
