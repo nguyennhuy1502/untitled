@@ -1,9 +1,16 @@
-package Techvify;
+package Techvify.Filter;
+
+import Techvify.DAO.Data;
+import Techvify.DAO.Question;
+import Techvify.FunctionalInterface.FilterLanguage;
+import Techvify.FunctionalInterface.FilterLevel;
+import Techvify.DAO.InterviewMe;
+import Techvify.DAO.Level;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FilterQuestion implements FilterLanguage,FilterLevel {
+public class FilterQuestion implements FilterLanguage, FilterLevel {
 
     @Override
     public List<Question> listLanguageFilter(InterviewMe interviewMe) {

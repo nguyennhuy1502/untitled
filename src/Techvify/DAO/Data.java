@@ -1,4 +1,4 @@
-package Techvify;
+package Techvify.DAO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ public class Data {
     static Language reactJS = new Language("R00","ReactJS");
 
     private static void addQuestion(){
-        questionsList.add(new Question("J01","Cac dac tinh OOP",Level.JUNIOR,java));
+        questionsList.add(new Question("J01","Cac dac tinh OOP", Level.JUNIOR,java));
         questionsList.add(new Question("J02","Private variable la gi",Level.JUNIOR,java));
         questionsList.add(new Question("J03","Neu diem khac nhau giua List va Set",Level.JUNIOR,java));
         questionsList.add(new Question("J04","Overload va Override",Level.JUNIOR,java));

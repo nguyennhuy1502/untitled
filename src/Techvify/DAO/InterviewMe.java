@@ -1,4 +1,4 @@
-package Techvify;
+package Techvify.DAO;
 
 public record InterviewMe(String language, String level) {
     @Override

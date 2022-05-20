@@ -1,4 +1,7 @@
-package Techvify;
+package Techvify.FunctionalInterface;
+
+import Techvify.DAO.InterviewMe;
+import Techvify.DAO.Question;
 
 import java.util.List;
 

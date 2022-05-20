@@ -1,4 +1,4 @@
-package Techvify;
+package Techvify.DAO;
 
 public class Language {
     private String id;

@@ -1,4 +1,4 @@
-package Techvify;
+package Techvify.DAO;
 
 public record Question(String questionCode, String questionName, Level questionLevel, Language language) {
 
