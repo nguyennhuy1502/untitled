@@ -1,13 +1,13 @@
-package DesignPattern.Observer;
+package DesignPattern.Observer.Acount;
 
 public class ObserverPatternExample {
     public static void main(String[] args) {
-        AccountService account1 = createAccount("contact@gpcoder.com", "127.0.0.1");
+        AccountService account1 = createAccount("Kuma.Nguyen.com", "127.0.0.1");
         account1.login();
         account1.changeStatus(LoginStatus.EXPIRED);
 
         System.out.println("---");
-        AccountService account2 = createAccount("contact@gpcoder.com", "116.108.77.231");
+        AccountService account2 = createAccount("Kuma.Nguyen.com", "116.108.77.231");
         account2.login();
     }
 

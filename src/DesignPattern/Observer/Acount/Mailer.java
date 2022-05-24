@@ -1,4 +1,4 @@
-package DesignPattern.Observer;
+package DesignPattern.Observer.Acount;
 
 public class Mailer implements Observer{
     @Override

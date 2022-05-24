@@ -1,4 +1,4 @@
-package DesignPattern.Observer;
+package DesignPattern.Observer.Acount;
 
 public class Protector implements Observer{
     @Override
